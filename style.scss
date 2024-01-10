@@ -1,0 +1,25 @@
+// body{
+//     background-color: black;
+// }
+
+.container{
+    width: 30%;
+    margin: 50px auto;
+    padding: 40px;
+    // color: white;
+    text-align: center;
+    background-color: white;
+
+    button{
+
+        padding: 10px 30px;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: hsl(0, 11%, 93%);
+        }
+    }
+}
+
